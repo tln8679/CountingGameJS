@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en-US">
+    <head>
+        <title>Let's play cards!</title>
+        <meta name="author" content="Taylor Noble">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <h1>Welcome to Twenty One Cards</h1>
+
+    <body class="center">
+            <div class="gallery">
+                    <a target="_blank" href="resources/cards.png">
+                      <img src="resources/cards.png" alt="Cards" width="200" height="200">
+                    </a>
+            </div>
+            <h2>Rules:</h2>
+            <ul>
+                <li>There are 21 cards and you must choose either 1, 2, or 3 cards</li>
+                <li>You get to be first</li>
+                <li>First person to say 0 wins</li>
+                <li>Play until you discover the winning strategy</li>
+            </ul> 
+            <div >
+                <p><button id = "one" class="button1" onclick="onClick(this.id)">One</button>
+                    <button id = "two" class="button2" onclick="onClick(this.id)">Two</button>
+                    <button id = "three" class="button3" onclick="onClick(this.id)">Three</button>
+                </p>
+                <strong><div style="font-size: 22pt" id="cardsLeft">21 cards left</div></strong>
+                <p style="text-align: left" id=yourChoices><b>Your choices:</b> None</p>
+                <p style="text-align: left" id=pcChoices><b>PC choices:</b> None</p>
+            </div>
+            
+        <script src="js/app.js"></script>
+    </body>
+</html>
