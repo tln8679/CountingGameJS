@@ -88,3 +88,16 @@ div.gallery {
     background-color: white; 
     color: black;
 }
+
+.name {
+    color: #f44336;
+    font-weight: bolder;
+    font-size: 22pt;
+}
+
+.cards{
+    color: black;
+    font-weight: bold;
+    font-size: 22pt;
+    
+}

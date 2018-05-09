@@ -17,9 +17,11 @@
             </div>
             <h2>Rules:</h2>
             <ul>
-                <li>There are 21 cards and you must choose either 1, 2, or 3 cards</li>
-                <li>You get to be first</li>
-                <li>First person to say 0 wins</li>
+                <li>This is a two player game</li>
+                <li>A deck of cards contains 21 cards</li>
+                <li>You and your opponent take turns taking either 1, 2, or 3 cards</li>
+                <li>Your opponent will be the computer</li>
+                <li>The object of the game is to be the first one to 0 cards</li>
                 <li>Play until you discover the winning strategy</li>
             </ul> 
             <div >
@@ -27,7 +29,10 @@
                     <button id = "2" class="button2" onclick="onClick(this.id)">2</button>
                     <button id = "3" class="button3" onclick="onClick(this.id)">3</button>
                 </p>
-                <strong><div style="font-size: 22pt" id="cardsLeft">21 cards left</div></strong>
+                <div>
+                    <span class="name"" id="turn">Your turn: </span> 
+                    <span class="cards" id="cardsLeft">21 cards left</span>
+                </div>
                 <p style="text-align: left" id=yourChoices><b>Your choices:</b> None</p>
                 <p style="text-align: left" id=pcChoices><b>PC choices:</b> None</p>
                 <p><button id = "reset" class="button4" onclick="reset()">Reset</button></p>
