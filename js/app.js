@@ -12,6 +12,10 @@
  var pcChoices = document.getElementById("pcChoices");
 
  function onClick(clicked_id){
+     if (numCards <= 0){
+         reset();
+         return;
+     }
     //  Update cards based of what the player picks
     switch(clicked_id) {
         case "1":
