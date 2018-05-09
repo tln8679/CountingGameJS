@@ -26,12 +26,8 @@ div.gallery {
     margin-left: auto;
     margin-right: auto;
     width: 180px;
+    
 }
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
 
 .button1 {
     background-color: #4CAF50;
@@ -75,6 +71,20 @@ div.gallery:hover {
 }
 
 .button3:hover {
+    background-color: white; 
+    color: black;
+}
+
+.button4 {
+    background-color: rgb(158, 158, 158);
+    color: white; 
+    border: 2px solid rgb(158, 158, 158);
+    font-size: 28px;
+    cursor: pointer;
+    outline:none;
+}
+
+.button4:hover {
     background-color: white; 
     color: black;
 }
